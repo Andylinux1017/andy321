@@ -9,7 +9,7 @@ document.addEventListener('DOMContentLoaded', () => {
             statusDiv.textContent = '發送中...';
 
             try {
-                const response = await fetch('https://your-backend-url.com/send-message', {
+                const response = await fetch('https://andy-2.onrender.com/send-message', {
                     method: 'POST',
                     headers: {
                         'Content-Type': 'application/json',
