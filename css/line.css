@@ -6,53 +6,54 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 50vh;
+    min-height: 100vh;
 }
-
 .container {
     background-color: white;
-    padding: 2rem;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    width: 100%;
-    max-width: 100px;
+    padding: 1.5rem;
+    border-radius: 6px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+    width: 90%;
+    max-width: 350px;
 }
-
-h1 {
+h4 {
     text-align: center;
     color: #00b900;
+    margin-top: 0;
+    font-size: 1.2rem;
 }
-
+h5 {
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+}
 form {
     display: flex;
     flex-direction: column;
 }
-
 textarea {
-    margin-bottom: 1rem;
-    padding: 0.5rem;
+    margin-bottom: 0.8rem;
+    padding: 0.4rem;
     border: 1px solid #ccc;
     border-radius: 4px;
     resize: vertical;
-    min-height: 100px;
+    min-height: 80px;
+    font-size: 0.9rem;
 }
-
 button {
     background-color: #00b900;
     color: white;
     border: none;
-    padding: 0.5rem;
+    padding: 0.4rem;
     border-radius: 4px;
     cursor: pointer;
-    font-size: 1rem;
+    font-size: 0.9rem;
 }
-
 button:hover {
     background-color: #009900;
 }
-
 #status {
-    margin-top: 1rem;
+    margin-top: 0.8rem;
     text-align: center;
     font-weight: bold;
+    font-size: 0.9rem;
 }
