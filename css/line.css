@@ -10,11 +10,11 @@ body {
 }
 .container {
     background-color: white;
-    padding: 24px;
-    border-radius: 6px;
+    padding: 20px;
+    border-radius: 2px;
     box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
     width: 90%;
-    max-width: 150px;
+    max-width: 300px;
 }
 h4 {
     text-align: center;
