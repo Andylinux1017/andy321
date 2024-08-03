@@ -1,4 +1,4 @@
-
+<div style="color: #000000;">
 # Welcome to my personal website
 
 ## about me
@@ -21,3 +21,4 @@ Here are some recent projects I've completed：
 ## 小工具
 
 {% include line-api-html.html %}
+</div>
