@@ -4,24 +4,22 @@
     <meta charset='utf-8'>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
+    <link rel="stylesheet" href="{{ 'assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
+    <link rel="stylesheet" href="{{ 'assets/css/line.css' | relative_url }}">
     {% include head-custom.html %}
-{% seo %}
+    {% seo %}
   </head>
   <body>
     <header>
       <div class="container">
-        <a id="a-title" href="{{'/' |relative_url }}">
-
+        <a id="a-title" href="{{ '/' | relative_url }}">
           <h1>{{ site.title | default: site.github.repository_name }}</h1>
         </a>
         <h2>{{ site.description | default: site.github.project_tagline }}</h2>
         <section id="downloads">
           {% if site.show_downloads %}
-
           {% endif %}
            <a href="https://www.facebook.com/profile.php?id=100003987574755" class="btn btn-github"><span class="icon"></span>View on Facebook</a>
-
         </section>
       </div>
     </header>
@@ -30,5 +28,6 @@
         {{ content }}
       </section>
     </div>
+    <script src="{{ '/assets/js/line.js' | relative_url }}"></script>
   </body>
 </html>
