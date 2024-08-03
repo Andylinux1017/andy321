@@ -6,7 +6,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 100vh;
+    min-height: 30vh;
 }
 .container {
     background-color: white;
@@ -14,7 +14,7 @@ body {
     border-radius: 6px;
     box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
     width: 90%;
-    max-width: 350px;
+    max-width: 150px;
 }
 h4 {
     text-align: center;
